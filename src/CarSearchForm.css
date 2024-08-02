@@ -1,0 +1,27 @@
+.car-search-form {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  gap: 10px; /* Add space between elements */
+  max-width: 300px; /* Optional: limit form width */
+  margin: 0; /* Remove any automatic horizontal centering */
+  padding: 20px; /* Optional: add padding around the form */
+  border: 1px solid #ddd; /* Optional: add border for better visibility */
+  border-radius: 5px; /* Optional: add rounded corners */
+}
+
+.car-search-form label {
+  display: flex;
+  flex-direction: column; /* Align label and input vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+}
+
+.car-search-form input {
+  margin-top: 5px; /* Add space between label and input */
+  width: 100%; /* Make input fields take full width of their container */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.car-search-form button {
+  align-self: flex-start; /* Align button to the start of the form */
+  margin-top: 10px; /* Add space above the button */
+}
